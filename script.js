@@ -3,6 +3,8 @@ const tiles = Array.from(document.querySelectorAll('.tile'));
   const resetButton = document.querySelector('#reset');
   const announcer = document.querySelector('.announcer');
 
+  console.log('this is new one')
+
   let board = ['', '', '', '', '', '', '', '', ''];
   let currentPlayer = 'X';
   let isGameActive = true;
